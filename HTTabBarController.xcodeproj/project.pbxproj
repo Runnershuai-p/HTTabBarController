@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54092C4A1FE132D800B446CC /* HTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54092C3F1FE132D800B446CC /* HTabBarController.m */; };
-		54092C4B1FE132D800B446CC /* UIImage+HTTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 54092C451FE132D800B446CC /* UIImage+HTTool.m */; };
-		54092C4C1FE132D800B446CC /* HTTabBar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54092C461FE132D800B446CC /* HTTabBar.plist */; };
-		54092C4D1FE132D800B446CC /* HTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 54092C471FE132D800B446CC /* HTTabBar.m */; };
-		54092C4E1FE132D800B446CC /* HTBarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54092C481FE132D800B446CC /* HTBarModel.m */; };
-		54092C4F1FE132D800B446CC /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 54092C491FE132D800B446CC /* HexColors.m */; };
+		54092C5C1FE1340C00B446CC /* HTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54092C511FE1340C00B446CC /* HTabBarController.m */; };
+		54092C5D1FE1340C00B446CC /* UIImage+HTTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 54092C571FE1340C00B446CC /* UIImage+HTTool.m */; };
+		54092C5E1FE1340C00B446CC /* HTTabBar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54092C581FE1340C00B446CC /* HTTabBar.plist */; };
+		54092C5F1FE1340C00B446CC /* HTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 54092C591FE1340C00B446CC /* HTTabBar.m */; };
+		54092C601FE1340C00B446CC /* HTBarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54092C5A1FE1340C00B446CC /* HTBarModel.m */; };
+		54092C611FE1340C00B446CC /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 54092C5B1FE1340C00B446CC /* HexColors.m */; };
 		547C8F5C1FDFE3D600A8513C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C8F5B1FDFE3D600A8513C /* AppDelegate.m */; };
 		547C8F621FDFE3D600A8513C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547C8F601FDFE3D600A8513C /* Main.storyboard */; };
 		547C8F641FDFE3D600A8513C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547C8F631FDFE3D600A8513C /* Assets.xcassets */; };
@@ -44,17 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		54092C3F1FE132D800B446CC /* HTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTabBarController.m; sourceTree = "<group>"; };
-		54092C401FE132D800B446CC /* UIImage+HTTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HTTool.h"; sourceTree = "<group>"; };
-		54092C411FE132D800B446CC /* HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColors.h; sourceTree = "<group>"; };
-		54092C421FE132D800B446CC /* HTBarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTBarModel.h; sourceTree = "<group>"; };
-		54092C431FE132D800B446CC /* HTTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTabBar.h; sourceTree = "<group>"; };
-		54092C441FE132D800B446CC /* HTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTabBarController.h; sourceTree = "<group>"; };
-		54092C451FE132D800B446CC /* UIImage+HTTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HTTool.m"; sourceTree = "<group>"; };
-		54092C461FE132D800B446CC /* HTTabBar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HTTabBar.plist; sourceTree = "<group>"; };
-		54092C471FE132D800B446CC /* HTTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTabBar.m; sourceTree = "<group>"; };
-		54092C481FE132D800B446CC /* HTBarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTBarModel.m; sourceTree = "<group>"; };
-		54092C491FE132D800B446CC /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColors.m; sourceTree = "<group>"; };
+		54092C511FE1340C00B446CC /* HTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTabBarController.m; sourceTree = "<group>"; };
+		54092C521FE1340C00B446CC /* UIImage+HTTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HTTool.h"; sourceTree = "<group>"; };
+		54092C531FE1340C00B446CC /* HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColors.h; sourceTree = "<group>"; };
+		54092C541FE1340C00B446CC /* HTBarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTBarModel.h; sourceTree = "<group>"; };
+		54092C551FE1340C00B446CC /* HTTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTabBar.h; sourceTree = "<group>"; };
+		54092C561FE1340C00B446CC /* HTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTabBarController.h; sourceTree = "<group>"; };
+		54092C571FE1340C00B446CC /* UIImage+HTTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HTTool.m"; sourceTree = "<group>"; };
+		54092C581FE1340C00B446CC /* HTTabBar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HTTabBar.plist; sourceTree = "<group>"; };
+		54092C591FE1340C00B446CC /* HTTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTabBar.m; sourceTree = "<group>"; };
+		54092C5A1FE1340C00B446CC /* HTBarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTBarModel.m; sourceTree = "<group>"; };
+		54092C5B1FE1340C00B446CC /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColors.m; sourceTree = "<group>"; };
 		547C8F571FDFE3D600A8513C /* HTTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		547C8F5A1FDFE3D600A8513C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		547C8F5B1FDFE3D600A8513C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -104,22 +104,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		54092C3E1FE132D800B446CC /* HTabBarController */ = {
+		54092C501FE1340C00B446CC /* HTUITabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				54092C3F1FE132D800B446CC /* HTabBarController.m */,
-				54092C401FE132D800B446CC /* UIImage+HTTool.h */,
-				54092C411FE132D800B446CC /* HexColors.h */,
-				54092C421FE132D800B446CC /* HTBarModel.h */,
-				54092C431FE132D800B446CC /* HTTabBar.h */,
-				54092C441FE132D800B446CC /* HTabBarController.h */,
-				54092C451FE132D800B446CC /* UIImage+HTTool.m */,
-				54092C461FE132D800B446CC /* HTTabBar.plist */,
-				54092C471FE132D800B446CC /* HTTabBar.m */,
-				54092C481FE132D800B446CC /* HTBarModel.m */,
-				54092C491FE132D800B446CC /* HexColors.m */,
+				54092C511FE1340C00B446CC /* HTabBarController.m */,
+				54092C521FE1340C00B446CC /* UIImage+HTTool.h */,
+				54092C531FE1340C00B446CC /* HexColors.h */,
+				54092C541FE1340C00B446CC /* HTBarModel.h */,
+				54092C551FE1340C00B446CC /* HTTabBar.h */,
+				54092C561FE1340C00B446CC /* HTabBarController.h */,
+				54092C571FE1340C00B446CC /* UIImage+HTTool.m */,
+				54092C581FE1340C00B446CC /* HTTabBar.plist */,
+				54092C591FE1340C00B446CC /* HTTabBar.m */,
+				54092C5A1FE1340C00B446CC /* HTBarModel.m */,
+				54092C5B1FE1340C00B446CC /* HexColors.m */,
 			);
-			path = HTabBarController;
+			path = HTUITabBarController;
 			sourceTree = "<group>";
 		};
 		547C8F4E1FDFE3D600A8513C = {
@@ -145,7 +145,7 @@
 		547C8F591FDFE3D600A8513C /* HTTabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				54092C3E1FE132D800B446CC /* HTabBarController */,
+				54092C501FE1340C00B446CC /* HTUITabBarController */,
 				547C8F8F1FDFE44800A8513C /* Application */,
 				547C8F921FDFE44800A8513C /* Home */,
 				547C8F8C1FDFE44700A8513C /* Message */,
@@ -321,7 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54092C4C1FE132D800B446CC /* HTTabBar.plist in Resources */,
+				54092C5E1FE1340C00B446CC /* HTTabBar.plist in Resources */,
 				547C8F671FDFE3D600A8513C /* LaunchScreen.storyboard in Resources */,
 				547C8F641FDFE3D600A8513C /* Assets.xcassets in Resources */,
 				547C8F621FDFE3D600A8513C /* Main.storyboard in Resources */,
@@ -350,14 +350,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				547C8FAA1FDFE44800A8513C /* ViewController.m in Sources */,
-				54092C4B1FE132D800B446CC /* UIImage+HTTool.m in Sources */,
+				54092C5D1FE1340C00B446CC /* UIImage+HTTool.m in Sources */,
 				547C8FA71FDFE44800A8513C /* HTMessageController.m in Sources */,
-				54092C4F1FE132D800B446CC /* HexColors.m in Sources */,
-				54092C4E1FE132D800B446CC /* HTBarModel.m in Sources */,
+				54092C611FE1340C00B446CC /* HexColors.m in Sources */,
+				54092C601FE1340C00B446CC /* HTBarModel.m in Sources */,
 				547C8FA81FDFE44800A8513C /* HTAPPController.m in Sources */,
 				547C8F6A1FDFE3D600A8513C /* main.m in Sources */,
-				54092C4A1FE132D800B446CC /* HTabBarController.m in Sources */,
-				54092C4D1FE132D800B446CC /* HTTabBar.m in Sources */,
+				54092C5C1FE1340C00B446CC /* HTabBarController.m in Sources */,
+				54092C5F1FE1340C00B446CC /* HTTabBar.m in Sources */,
 				547C8FA91FDFE44800A8513C /* HTHomeController.m in Sources */,
 				547C8F5C1FDFE3D600A8513C /* AppDelegate.m in Sources */,
 			);
