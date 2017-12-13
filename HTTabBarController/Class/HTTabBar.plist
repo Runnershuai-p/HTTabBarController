@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>首页</string>
+		<key>normal</key>
+		<string>tab_home</string>
+		<key>select</key>
+		<string>tab_home2</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>消息</string>
+		<key>normal</key>
+		<string>tab_message</string>
+		<key>select</key>
+		<string>tab_message2</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>应用</string>
+		<key>normal</key>
+		<string>tab_application</string>
+		<key>select</key>
+		<string>tab_application2</string>
+	</dict>
+    <dict>
+        <key>title</key>
+        <string>我的</string>
+        <key>normal</key>
+        <string>tab_my</string>
+        <key>select</key>
+        <string>tab_my2</string>
+    </dict>
+</array>
+</plist>
