@@ -2,6 +2,7 @@
 * 对UITabBarController做特定的设置修改，省去传统初始化过程
 * 在保留原有的基础上，可自定义TabBar样式（例如高度，选项图，背景，title等）
 
+编写实用的类似UITabBarController的库，这里主要是介绍如何让cocoapods支持自己的库
 ## 如何让cocoapods支持自己的库
 #### 准备工作
 * 前提已经安装过cocoapods
