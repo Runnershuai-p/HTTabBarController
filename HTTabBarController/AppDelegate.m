@@ -24,14 +24,13 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    
-    HTabBarController *tabBar = [[HTabBarController alloc] init];
-    tabBar.sourceFile = [[NSBundle mainBundle] pathForResource:@"HTTabBar" ofType:@"plist"];
+    NSString *sourceFile = [[NSBundle mainBundle] pathForResource:@"HTTabBar" ofType:@"plist"];
+    HTabBarController *tabBar = [[HTabBarController alloc] initWithSourceFile:sourceFile];
     [tabBar addViewControllerClasses:@[@"HTHomeController",
                                        @"HTMessageController",
                                        @"HTAPPController",
                                        @"ViewController"] navigator:YES];
-    tabBar.selectedIndex = 1;
+    tabBar.selectedIndex = 0;
     self.window.rootViewController = tabBar;
     return YES;
 }
@@ -65,3 +64,4 @@
 
 
 @end
+

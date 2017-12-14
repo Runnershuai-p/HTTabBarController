@@ -152,6 +152,7 @@
 }
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
+
     if (self) {
         [self addSubview:self.imageView];
         [self addSubview:self.titleLabel];

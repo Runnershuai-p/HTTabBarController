@@ -19,12 +19,17 @@
 @end
 
 @implementation HTabBarController
-
+- (instancetype)initWithSourceFile:(NSString *)sourceFile {
+    self = [super init];
+    if (self) {
+        self.sourceFile = sourceFile;
+    }
+    return self;
+}
 
 - (void)addViewControllerClasses:(NSArray *)classNames navigator:(BOOL)navigator {
-    
-    if (self.htTabBar.itemsArray.count != classNames.count) return;
-    
+    NSAssert(self.htTabBar.itemsArray.count == classNames.count, @"please correct configuration plist file !");
+//    if (self.htTabBar.itemsArray.count != classNames.count) return;
     NSMutableArray *navigationControllers = [NSMutableArray arrayWithCapacity:2];
     for (NSString  *classSting in classNames) {
         UIViewController *vc = (UIViewController *)[[NSClassFromString(classSting) alloc] init];
@@ -38,8 +43,8 @@
     self.viewControllers = navigationControllers;
 }
 - (void)addViewControllers:(NSArray *)controllers navigator:(BOOL)navigator {
-
-    if (self.htTabBar.itemsArray.count != controllers.count) return;
+    NSAssert(self.htTabBar.itemsArray.count == controllers.count, @"please correct configuration plist file !");
+//    if (self.htTabBar.itemsArray.count != controllers.count) return;
     
     NSMutableArray *navigationControllers = [NSMutableArray arrayWithCapacity:2];
     for (UIViewController *vc in controllers) {

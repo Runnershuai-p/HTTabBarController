@@ -23,6 +23,7 @@
 + (NSArray *)massProductionWithHTBarModels:(NSString *)sourceFile {
     NSMutableArray *workshop = [NSMutableArray arrayWithCapacity:2];
     NSArray *plist = [[NSArray alloc] initWithContentsOfFile:sourceFile];
+    NSAssert(plist.count>0, @"Error configuration file format !");
     for (NSDictionary *dict in plist) {
         HTBarModel *model = [[HTBarModel alloc] initWithDictionary:dict];
         [workshop addObject:model];

@@ -25,6 +25,7 @@
 
 @property (nonatomic ,assign) BOOL hiddenHtTabBar;
 
+- (instancetype)initWithSourceFile:(NSString *)sourceFile;
 /** 添加视图控制器
  *  controllers：视图控制器
  *  navigator： 是否添加导航器
