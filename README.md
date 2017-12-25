@@ -129,7 +129,6 @@ Unable to find a pod with name, author, summary, or description matching 'xxx'
 * 编辑符号错误
 * 注意s.source中的tag版本与打tag版本
 * s.source_files 引用错误
-* 
 
 
 
