@@ -100,7 +100,7 @@ xxxx passed validation
 
 ```
 //如果有警告 后面加 --allow-warnings
-pod trunk push LHHAlertView.podspec 
+pod trunk push HTUITabBarController 
 ```
 这一步可能会因为pods版本低而失败，根据提示信息更新pods, 还有可能会```There was an error fetching your info from trunk: execution expired``` 这是网络超时的原因。
 成功会出现🎉标志的。
