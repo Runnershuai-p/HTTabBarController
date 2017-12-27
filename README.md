@@ -59,7 +59,7 @@ s.name = ''
 //版本
 s.version = '1.0.0'
 // 描述信息
-s.summary = 'A view like UIAlertView on iOS.'
+s.summary = 'A iOS like UITabBarController.'
 // 这里的主页自己随便写
 s.homepage = 'https://github.com/PureRunner/HTTabBarController' 
 // 作者
@@ -86,7 +86,7 @@ end
 
 #### 验证.podspec文件
 ```
-pod lib lint LHHAlertView.podspec
+pod lib lint HTUITabBarController.podspec
 ```
 如果出现如下提示说明验证通过：
 
