@@ -104,6 +104,14 @@ pod trunk push HTUITabBarController (HTUITabBarController.podspec 路径)
 ```
 这一步可能会因为pods版本低而失败，根据提示信息更新pods, 还有可能会```There was an error fetching your info from trunk: execution expired``` 这是网络超时的原因。
 成功会出现🎉标志的。
+```
+🎉  Congrats
+
+ 🚀  HTUITabBarController (1.0.0) successfully published
+ 📅  December 27th, 03:15
+ 🌎  https://cocoapods.org/pods/HTUITabBarController
+ 👍  Tell your friends!
+```
 
 
 #### 搜索自己提交的库
