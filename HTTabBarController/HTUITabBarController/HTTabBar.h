@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-
 @class HTBarModel;
 @class HTTabBar;
 @protocol HTTabBarDelegate <NSObject>
